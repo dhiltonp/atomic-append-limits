@@ -82,7 +82,7 @@ fn parent_process(args: &Cli) {
     for mut child in children {
         child.wait();
     }
-    println!("\npass completes");
+    println!("\npass complete");
 }
 
 fn child_process(args: &Cli) {
